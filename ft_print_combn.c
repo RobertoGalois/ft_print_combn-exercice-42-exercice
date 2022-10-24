@@ -79,6 +79,11 @@ void    ft_print_combn(int n)
         int     foc_indx;       /* Witch index of number we focus on */
         int     count;
 
+        if (n <= 0 || n >= 10)  /* checking for valid input 0 < n < 10 */
+        {
+            return;
+        }
+
         foc_indx = (n - 1); /* we focus on the last index of number = unity */
 
         /*
