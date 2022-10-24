@@ -28,7 +28,7 @@ void    ft_print_n_numbers(int* p_tab, int p_foc_indx, int p_nb_indx)
 {
         int     count;
 
-        while (1) 
+        while (1)
         {
             /*
             ** we focus on the index that is not sh last_number
@@ -75,14 +75,14 @@ void    ft_print_n_numbers(int* p_tab, int p_foc_indx, int p_nb_indx)
 
 void    ft_print_combn(int n)
 {
-        int     number[9];      /* Arr that contain all digits of the number */
+        int     number[10];      /* Arr that contain all digits of the number */
         int     foc_indx;       /* Witch index of number we focus on */
         int     count;
 
         foc_indx = (n - 1); /* we focus on the last index of number = unity */
 
         /*
-        ** We initialize our number with 0123456...(n-1) because it can 
+        ** We initialize our number with 0123456...(n-1) because it can
         ** mathematicaly only take this value
         */
         count = 0;
